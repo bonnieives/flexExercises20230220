@@ -1,0 +1,124 @@
+section {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px 0px;
+    display: flex;
+}
+    /*First box*/
+section#section1 {
+    align-items: center;
+}
+
+section#section1 > img[src*="1.jfif"] {
+    align-self: start;
+}
+
+section#section1 > img[src*="2.jfif"] {
+    align-self: center;
+    flex-grow: 1;
+}
+
+section#section1 > img[src*="3.jfif"] {
+    align-self: end;
+}
+/*Second box*/
+section#section2 {
+    align-items: center;
+    flex-direction: column;
+}
+
+section#section2 > img[src*="1.jfif"] {
+    align-self: end;
+}
+
+section#section2 > img[src*="2.jfif"] {
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+section#section2 > img[src*="3.jfif"] {
+     align-self: center;
+}
+    /*Third box*/
+section#section3 {
+     justify-content: flex-end;
+     gap: 30px;
+}
+
+/*Fourth box*/
+section#section4 {
+     justify-content: flex-end;
+     flex-direction: row-reverse;
+     gap: 15px;
+}
+
+/*Fifth box*/
+section#section5 {
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+
+section#section5 > img[src*="1.jfif"] {
+    align-self: end;
+}
+
+section#section5 > img[src*="2.jfif"] {
+    align-self: start;
+}
+
+section#section5 > img[src*="3.jfif"] {
+     align-self: center;
+     flex-grow: 1;
+}
+/*Sixth box*/
+section#section6 {
+    justify-content: space-between;
+}
+
+/*Seventh box*/
+section#section7 {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 15px;
+}
+section#section7 > img[src*="1.jfif"] {
+    align-self: start;
+}
+
+section#section7 > img[src*="2.jfif"] {
+    align-self: start;
+}
+
+section#section7 > img[src*="3.jfif"] {
+     align-self: center;
+}
+/*Eigth box*/
+section#section8 {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 15px;
+}
+section#section8 > img[src*="1.jfif"] {
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+section#section8 > img[src*="2.jfif"] {
+    align-self: end;
+}
+
+section#section8 > img[src*="3.jfif"] {
+     align-self: center;
+}
+/*Nineth box*/
+section#section9 {
+    align-items: center;
+    justify-content: space-around;
+}
+/*Tenth box*/
+section#section10 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
